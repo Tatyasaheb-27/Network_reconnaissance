@@ -2,8 +2,6 @@
 
 📌 Objective
 
-tatyadjkskdgsnhcvasfv
-
 The goal is to perform a network reconnaissance scan using Nmap to identify open ports and understand potential security risks in a local network.
 
 ⸻
