@@ -9,22 +9,22 @@ The goal is to perform a network reconnaissance scan using Nmap to identify open
 🛠 Tools Used
 
  • Nmap – For scanning IP ranges and identifying open ports.
+ 
  • Wireshark (optional) – For analyzing packets captured during scanning.
 
 ⸻
 
 🚀 Steps Performed
  1. Installed Nmap from the official site.
+    
  2. Identified local IP range using:
 
 ipconfig   # (Windows)  
 ifconfig   # (Linux/Mac)
 
-
  3. Ran a TCP SYN Scan on my local network:
 
 nmap -sS 192.168.1.0/24
-
 
  4. Recorded IP addresses and open ports found.
  5. (Optional) Used Wireshark to capture and analyze packets.
