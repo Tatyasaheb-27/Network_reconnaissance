@@ -7,6 +7,7 @@ The goal is to perform a network reconnaissance scan using Nmap to identify open
 ⸻
 
 🛠 Tools Used
+
  • Nmap – For scanning IP ranges and identifying open ports.
  • Wireshark (optional) – For analyzing packets captured during scanning.
 
