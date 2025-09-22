@@ -24,7 +24,7 @@ ifconfig   # (Linux/Mac)
 
  3. Ran a TCP SYN Scan on my local network:
 
-nmap -sS 192.168.1.0/24
+eg - nmap -sS 192.168.1.0/24
 
  4. Recorded IP addresses and open ports found.
  5. (Optional) Used Wireshark to capture and analyze packets.
@@ -35,11 +35,10 @@ nmap -sS 192.168.1.0/24
 📊 Sample Results
  • Example output of Nmap scan:
 
-Nmap scan report for 192.168.1.1
+Nmap scan report for 192.168.0.15
+
 PORT     STATE SERVICE
-22/tcp   open  ssh
 80/tcp   open  http
-443/tcp  open  https
 
 
  • Risks identified:
