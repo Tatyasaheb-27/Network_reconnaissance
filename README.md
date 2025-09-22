@@ -24,7 +24,7 @@ ifconfig   # (Linux/Mac)
 
  3. Ran a TCP SYN Scan on my local network:
 
-eg - nmap -sS 192.168.1.0/24
+eg - nmap -sS 192.168.0.0/24
 
  4. Recorded IP addresses and open ports found.
  5. (Optional) Used Wireshark to capture and analyze packets.
@@ -42,9 +42,9 @@ PORT     STATE SERVICE
 
 
  • Risks identified:
- • Port 22 (SSH): If weak credentials are used, it may allow brute-force attacks.
+ 
  • Port 80 (HTTP): Unencrypted traffic can be intercepted.
- • Port 443 (HTTPS): Generally secure, but vulnerable if SSL/TLS is outdated.
+
 
 ⸻
 
@@ -54,12 +54,6 @@ PORT     STATE SERVICE
  • Learned how attackers can use port scanning as reconnaissance.
  • Explored how Wireshark complements Nmap by providing packet-level insights.
 
-
-⸻
-
-✅ Interview Question Answers
-
-Check Answers.md for detailed responses to the provided interview questions.
 
 ⸻
 
